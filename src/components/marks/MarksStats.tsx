@@ -67,7 +67,7 @@ const MarksStats: React.FC<MarksStatsProps> = ({ marks }) => {
       
       {marks.length === 0 ? (
         <div className="text-center text-gray-500 py-10">
-          No marks recorded yet. Add some marks to see your statistics.
+          No marks. No glory. No fun. Fix that — add your first mark!.
         </div>
       ) : (
         <>

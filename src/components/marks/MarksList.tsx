@@ -51,10 +51,12 @@ const MarksList: React.FC<MarksListProps> = ({ marks, onDeleteMark, onShowStats 
 
   const calculateGrade = (score: number, maxScore: number) => {
     const percentage = (score / maxScore) * 100;
-    if (percentage >= 90) return 'A';
-    if (percentage >= 80) return 'B';
-    if (percentage >= 70) return 'C';
-    if (percentage >= 60) return 'D';
+    if (percentage >= 90) return 'O';
+    if (percentage >= 80) return 'A+';
+    if (percentage >= 70) return 'A';
+    if (percentage >= 60) return 'B+';
+    if (percentage >= 50) return 'B';
+    if (percentage >= 40) return 'C';
     return 'F';
   };
 
@@ -95,7 +97,7 @@ const MarksList: React.FC<MarksListProps> = ({ marks, onDeleteMark, onShowStats 
       
       {marks.length === 0 ? (
         <div className="p-8 text-center text-gray-500">
-          No marks recorded yet. Add your first mark to get started.
+          No marks recorded yet. Don't worry, legends start from zero too. Time to make history!.
         </div>
       ) : (
         <div className="overflow-x-auto">

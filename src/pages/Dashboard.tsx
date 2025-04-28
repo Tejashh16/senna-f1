@@ -211,7 +211,8 @@ const Dashboard: React.FC<DashboardProps> = ({ tasks, events, marks, navigateTo 
       
       {/* Footer credit */}
       <div className="text-center text-sm text-gray-500 pt-4">
-        SennaFloww - Built with ❤️ by Tejash kanagaraj instagram: https://www.instagram.com/tejashh.kanagaraj/
+        SennaFloww - Built with ❤️ by Tejash kanagaraj 
+        Hit that follow button 👉 @tejashh.kanagaraj 
       </div>
     </div>
   );

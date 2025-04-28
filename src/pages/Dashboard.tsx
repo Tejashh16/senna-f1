@@ -47,7 +47,7 @@ const Dashboard: React.FC<DashboardProps> = ({ tasks, events, marks, navigateTo 
         <div className="p-6 sm:p-8">
           <h1 className="text-2xl sm:text-3xl font-bold text-white">Welcome to SennaFloww</h1>
           <p className="mt-2 text-blue-100">Brought to you by Your Personal Academic Management System — because even geniuses need a little help sometimes.</p>
-          <p className="mt-1 text-blue-200 text-sm">Built by Tejash</p>
+          <p className="mt-1 text-blue-200 text-sm"></p>
           
           {/* Quick stats */}
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">

@@ -106,7 +106,7 @@ const Dashboard: React.FC<DashboardProps> = ({ tasks, events, marks, navigateTo 
           <div className="p-4">
             {upcomingTasks.length === 0 ? (
               <div className="text-center py-6 text-gray-500">
-                No upcoming tasks. Get started by adding a new task.
+              Zero tasks detected. Either you’re a genius or a future problem. Add a task to find out!
               </div>
             ) : (
               <div className="space-y-3">
@@ -146,7 +146,7 @@ const Dashboard: React.FC<DashboardProps> = ({ tasks, events, marks, navigateTo 
           <div className="p-4">
             {upcomingEvents.length === 0 ? (
               <div className="text-center py-6 text-gray-500">
-                No upcoming events. Add an event to your calendar.
+                No events found. Your social life and your calendar are both suspiciously quiet... Fix it — add an event!
               </div>
             ) : (
               <div className="space-y-3">
@@ -211,7 +211,7 @@ const Dashboard: React.FC<DashboardProps> = ({ tasks, events, marks, navigateTo 
       
       {/* Footer credit */}
       <div className="text-center text-sm text-gray-500 pt-4">
-        SennaFloww - Built with ❤️ by Tejash
+        SennaFloww - Built with ❤️ by Tejash kanagaraj instagram: https://www.instagram.com/tejashh.kanagaraj/
       </div>
     </div>
   );

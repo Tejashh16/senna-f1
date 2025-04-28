@@ -46,7 +46,7 @@ const Navigation: React.FC<NavigationProps> = ({ currentPage, setCurrentPage }) 
             </div>
           </div>
           <div className="flex items-center">
-            <span className="text-sm text-gray-500">Built by Tejash</span>
+            <span className="text-sm text-gray-500"></span>
           </div>
         </div>
       </div>
